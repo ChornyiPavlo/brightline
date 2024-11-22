@@ -854,7 +854,9 @@ ul.page li a:hover {
     height: 900px;
     background-color: #2222;
 }
-
+.single-bg-1.short {
+    height: 100px;
+}
 .slide-item-table {
     display: table;
     width: 100%;
@@ -1020,7 +1022,12 @@ ul.page li a:hover {
 .work-heading {
     padding-bottom: 94px;
 }
-
+.policy h2{
+    padding: 20px 0;
+}
+.policy h4{
+    padding: 10px 0;
+}
 .portfolio-1 {
     margin: 5px 0 40px 5px;
 }
@@ -1032,7 +1039,11 @@ ul.page li a:hover {
     -webkit-border-radius: 0%;
     -moz-border-radius: 0%;
 }
-
+.avatar {
+    width: 255px;
+    height: 255px;
+    object-fit: cover;
+}
 .port-contant {
     padding: 35px 0px 45px 25px;
 }

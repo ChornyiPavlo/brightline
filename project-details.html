@@ -15,6 +15,22 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- For Responsive -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://brightline.com",
+                        "name": "https://brightline.com/"
+                    }
+                }
+            ]
+        }
+    </script>
 </head>
 <body>
     <!-- Preloader Start -->
@@ -437,7 +453,14 @@
     <div class="top_to">
         <span><i class="fa fa-angle-up" aria-hidden="true"></i></span>
     </div>
-    <!-- Optional JavaScript -->
+    <div itemscope="" itemtype="https://schema.org/Organization" style="display:none;">
+    <meta itemprop="name" content="brightline.com">
+    <link itemprop="url" href="https://brightline.com/">
+    <link itemprop="logo" href="/assets/images/favicon/favicon.svg">
+    <meta itemprop="description" content="Discover how Brightline's tailored social media strategies can elevate your brand. From content creation to paid ads, we specialize in driving engagement and delivering measurable results.">
+    <meta itemprop="email" content="info@brightline.com">
+</div>
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jQuery-3.3.1.min.js"></script>
     <script src="assets/js/jQuery.Migrate-v3.0.0.js"></script>

@@ -340,7 +340,9 @@
         float: left;
         margin-left: 7px;
     }
-
+    .toggle-menu {
+        display: block;
+    }
     .work-area,
     .our-servies {
         padding: 60px 0 23px 0;

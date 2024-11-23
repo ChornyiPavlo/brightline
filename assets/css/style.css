@@ -634,6 +634,7 @@ ul.page li a:hover {
 }
 
 .toggle-menu {
+    display: none;
     position: relative;
     width: 25%;
     height: 25px;
@@ -2520,7 +2521,10 @@ ul.page li a {
 .how-can h4 {
     padding-top: 36px;
 }
-
+.how-can ul {
+    list-style: disc;
+    margin-left: 30px;
+}
 /*share on part*/
 .share-on {
     padding: 20px 0;

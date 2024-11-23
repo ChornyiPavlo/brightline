@@ -74,7 +74,17 @@
 
 
 	jQuery(document).ready(function($){
-
+		var form = document.getElementById("contactForm");
+		if (form) {
+			form.addEventListener("submit", function (event) {
+				event.preventDefault();
+				document.getElementById("successMessage").style.display = "block";
+				document.getElementById("contactForm").reset();
+				setTimeout(() => {
+					document.getElementById("successMessage").style.display = "none";
+				}, 5000);
+			});
+		}
 
 		/*home page activation*/
 		$('.homepage-slide').owlCarousel({
@@ -194,52 +204,6 @@
 		    }
 		});
 
-		/*Counter Up activation*/
-	    $('.counter').counterUp({
-	        delay: 10,
-	        time: 1000
-	    });
 	});
 
-	/*vidoe active*/
-	$(".video1").videoPopup({
-                autoplay: 1,
-                controlsColor: 'white',
-                showVideoInformations: 0,
-                width: 1000,
-                customOptions: {
-                    rel: 0,
-                    end: 60
-                }
-        });
-	$("#video").videoPopup({
-                autoplay: 1,
-                controlsColor: 'white',
-                showVideoInformations: 0,
-                width: 1000,
-                customOptions: {
-                    rel: 0,
-                    end: 60
-                }
-        });
-    
-
 })(jQuery);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

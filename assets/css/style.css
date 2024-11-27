@@ -1578,7 +1578,7 @@ a.more-blog span {
 }
 .footer .section-title p,
 .footer .section-title span,
-ul.page li a{
+ul.page li a, ul.page li{
     color : #F5F9FF;
     line-height: 34px;
 }
@@ -2637,7 +2637,7 @@ ul.tag {
 
 .comment-h {
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .comment-h h4 {

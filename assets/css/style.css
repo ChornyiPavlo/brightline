@@ -1074,7 +1074,9 @@ ul.page li a:hover {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
+.port-contant p {
+    padding: 0px 25px 0px 0px;
+}
 .portfolio-1:hover .port-contant h5 {
     color: #0ab3e4
 }

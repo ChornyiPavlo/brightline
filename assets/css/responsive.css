@@ -333,7 +333,9 @@
                                 :-Mobile Layout-:-
 *=============================================================================================*/
 @media only screen and (max-width: 767.98px) {
-
+    .header .logo h1 {
+        font-size: 25px;
+    }
     /*language*/
     .language-dropdown {
         width: 68%;
